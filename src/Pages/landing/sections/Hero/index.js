@@ -33,6 +33,11 @@ const Hero = () => {
               {t('Hero-Multichain')}
             </Typography>
           </Box>
+          <Box py={1} textAlign="center" className={classes.center}>
+            <Typography variant="h4" className={classes.title2}>
+              {t('Hero-Vaults')}
+            </Typography>
+          </Box>
           <Box py={2}/>
           <Box py={2} className={classes.networks}>
             <img alt="BSC" src={require('images/networks/bsc.svg').default} />
@@ -66,6 +71,7 @@ const Hero = () => {
             </a>
           </Box>
         </Container>
+        <Divider />
       </Box>
     </>
   );

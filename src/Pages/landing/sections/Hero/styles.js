@@ -16,6 +16,9 @@ const styles = theme => ({
     fontWeight: '900',
     fontStrech: 'bold',
   },
+  title2: {
+    fontSize: '1rem',
+  },
   bold: {
     fontSize: '2rem',
     fontWeight: '900',
