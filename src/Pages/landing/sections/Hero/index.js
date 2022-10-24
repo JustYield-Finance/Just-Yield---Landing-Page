@@ -46,7 +46,6 @@ const Hero = () => {
             <img alt="FTM" src={require('images/networks/fantom.svg').default} />
             <img alt="ARB" src={require('images/networks/arbitrum.svg').default} />
             <img alt="OP" src={require('images/networks/optimism.svg').default} />
-            <img alt="DC" src={require('images/networks/dogechain.svg').default} />
           </Box>
           <Box mt={4} className={classes.center}>
           <a
