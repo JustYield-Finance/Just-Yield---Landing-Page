@@ -15,7 +15,7 @@ import { useTranslation } from 'react-i18next';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import styles from './styles';
 import OutlinedButton from 'components/OutlinedButton';
-import { getWidgetData } from 'Pages/landing/utils/api';
+//import { getWidgetData } from 'Pages/landing/utils/api';
 import Github from 'components/Github';
 import Discord from 'components/Discord';
 
@@ -42,14 +42,14 @@ const Cards = () => {
   const classes = useStyles();
   const [stats, setStats] = React.useState({});
 
-  React.useEffect(() => {
+  /*React.useEffect(() => {
     async function FetchData() {
       const data = await getWidgetData();
       setStats(data);
     }
 
     FetchData();
-  }, []);
+  }, []);*/
 
   return (
     <Grid container className={classes.center} spacing={1}>

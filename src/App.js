@@ -35,7 +35,7 @@ export default function App() {
           body: {
             maxWidth: '100%',
             overflowX: 'hidden',
-            backgroundColor: isNightMode ? '#eeecde' : '#eeecde',
+            backgroundColor: isNightMode ? '#d9ecf2' : '#d9ecf2',
           },
         },
       },
